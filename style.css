@@ -533,14 +533,14 @@ footer p {
     font-size: 0.7rem;
     margin-top: 2.7vw;
     margin-left: 2vw;
-	  font-family:  "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ;
+	  font-family:  "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
     font-style: normal;
     line-height: 1.75;
     border-left: solid 0.2vw #9B9B9B;
   }
   .item_other p {
     font-size: 0.5rem;
-	   font-family:  "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ;
+	   font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
     margin-left: 2vw;
     margin-bottom: 1vw;
     border-left: solid 0.2vw #9B9B9B;
@@ -600,7 +600,7 @@ footer p {
   .outline h1 {
     margin-top: 13px;
     margin-bottom: 0px;
-    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 1.1rem;
@@ -609,15 +609,15 @@ footer p {
   }
   .outline h2 {
     margin-top: 1rem;
-    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 1.0rem;
+    font-size: 0.8rem;
     line-height: 1.75;
     letter-spacing: 0.1em;
   }
   .outline {
-    font-weight: 500;
+    
     margin: 5vw;
     padding: 3vw;
   }
@@ -625,7 +625,8 @@ footer p {
     width: 80%;
     padding-top: 2rem;
     padding-bottom: 3rem;
-    font-style: normal;
+	  font-weight: normal;
+    font-family:"ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,"ＭＳ Ｐゴシック",sans-serif;
     font-size: 0.9rem;
     line-height: 1.9;
     letter-spacing: 0.1em;
