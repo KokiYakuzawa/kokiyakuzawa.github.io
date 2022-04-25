@@ -8,13 +8,12 @@ html {
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Verdana, Roboto, "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif;
+  font-family:  "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ,-apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, Verdana, Roboto;
   font-size: 1rem;
   line-height: 1.75;
   letter-spacing: 0.1em;
   color: #000;
   background: #ffffff;
-	
 }
 ul {
   list-style: none;
@@ -119,7 +118,7 @@ a {
     width: 30vw;
     margin-top: 8vw;
     margin-left: 4vw;
-    font-family: dnp-shuei-mincho-pr6n, sans-serif;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-weight: 600;
     font-style: normal;
     font-size: 1.6vw;
@@ -240,18 +239,17 @@ a {
 .page {
   margin: 1vw 5vw;
   padding: 1vw 1vw;
-	
 }
 .youtube {
   position: relative;
   width: 100%;
-	height: auto;
+  height: auto;
   overflow: hidden;
   margin-top: 36px;
- padding-bottom: 56.25%;
+  padding-bottom: 56.25%;
 }
 .youtube iframe {
- position: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -259,8 +257,8 @@ a {
   border: none; /*境界線の打ち消し*/
 }
 .top-figure img {
-	box-sizing: border-box;
- width: auto;
+  box-sizing: border-box;
+  width: auto;
   height: auto;
   max-width: 100%;
   max-height: 100%;
@@ -272,8 +270,8 @@ a {
   font-size: 1.0rem;
   line-height: 1.75;
   letter-spacing: 0.1em;
- margin-top: 20px;
-	margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .title h2 {
   font-size: 1.0rem;
@@ -285,7 +283,6 @@ a {
   line-height: 1.75;
   letter-spacing: 0.1em;
 }
-
 .outline h2 {
   margin-top: 1rem;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
@@ -297,10 +294,8 @@ a {
 }
 .outline {
   font-weight: 500;
-	 
   padding-top: 2rem;
   padding-bottom: 3rem;
-
 }
 .outline p {
   width: 360px;
@@ -312,7 +307,7 @@ a {
   letter-spacing: 0.1em;
 }
 .intro p {
-	 width: 100vw;
+  width: 100vw;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   font-style: normal;
@@ -320,20 +315,19 @@ a {
   line-height: 1.9;
   letter-spacing: 0.1em;
 }
-
 .large-figure img {
-	 padding-top: 1.6rem;
+  padding-top: 1.6rem;
   width: auto;
   height: auto;
   max-width: 100%;
   max-height: 100%;
 }
-	.small-figure img {
+.small-figure img {
   width: auto;
   height: auto;
   max-width: 70%;
   max-height: 70%;
-	}
+}
 footer {
   width: 100%;
   height: 120px;
@@ -345,7 +339,7 @@ footer p {
   font-size: 0.9vw;
   padding-top: 100px;
 }
-@media screen and (min-width:581px) and (max-width:950px) {
+@media screen and (min-width:600px) and (max-width:950px) {
   /*　for iPad 　*/
   .item_other :hover {
     font-weight: bold;
@@ -422,19 +416,23 @@ footer p {
     border: none;
   }
 }
-@media screen and (max-width: 580px) {
+@media only screen and (max-width: 599px) {
   /* ここからスマホ向け */
-	
+	.content{
+	width:80%;
+		margin:0 auto;
+		
+		padding:2em;
+	}
   header {
     position: fixed;
     width: 100%;
     height: 66px;
   }
-	header h1{
-		padding:0px;
-		font-size:1.4rem;
-	}
-	
+  header h1 {
+    padding: 0px;
+    font-size: 1.4rem;
+  }
   header nav {
     position: absolute;
     right: 0;
@@ -451,7 +449,7 @@ footer p {
     margin-top: 3vw;
     margin-bottom: 7vw;
     width: 100%;
-    border: solid #000000 1px;
+    border: none;
     display: block;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
     /*height:900px;*/
@@ -510,7 +508,7 @@ footer p {
     margin-top: 3vw;
     margin-bottom: 7vw;
     width: 100%;
-    border: solid #000000 1px;
+    border: none;
     display: block;
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
     /*height:900px;*/
@@ -535,12 +533,14 @@ footer p {
     font-size: 0.7rem;
     margin-top: 2.7vw;
     margin-left: 2vw;
+	  font-family:  "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-style: normal;
     line-height: 1.75;
     border-left: solid 0.2vw #9B9B9B;
   }
   .item_other p {
     font-size: 0.5rem;
+	   font-family:  "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ;
     margin-left: 2vw;
     margin-bottom: 1vw;
     border-left: solid 0.2vw #9B9B9B;
@@ -566,98 +566,98 @@ footer p {
   }
   /*   ここからベージ　*/
   .page {
-  margin: 0px;
-  padding: 0 auto;
-}
-.youtube {
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  margin-top: 36px;
-  padding-bottom: 56.25%;
-}
-.youtube iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: none; /*境界線の打ち消し*/
-}
-.title {
-  margin-top: 20px;
-}
-.title h2 {
-  font-size: 1.0rem;
-  line-height: 1.75;
-  letter-spacing: 0.1em;
-}
-.title p {
-	
-  font-size: 0.7rem;
-  line-height: 1.75;
-  letter-spacing: 0.1em;
-}
-.outline h1 {
-  margin-top: 100px;
-  margin-bottom: 20px;
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 2.1rem;
-  line-height: 1.75;
-  letter-spacing: 0.1em;
-}
-.outline h2 {
-  margin-top: 1rem;
-  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 1.0rem;
-  line-height: 1.75;
-  letter-spacing: 0.1em;
-}
-.outline {
-  font-weight: 500;
-	 margin: 5vw;
-  padding: 3vw;
-}
-.outline p {
-  width: 80%;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
-  font-style: normal;
-  font-size: 0.9rem;
-  line-height: 1.9;
-  letter-spacing: 0.1em;
-	 word-wrap: break-word;
-}
-.large-figure img {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
-	.small-figure img {
-  width: 10px;
-  height: auto;
-  /*max-width: 70%;
+    margin: 0px;
+    padding: 0 auto;
+  }
+  .youtube {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 36px;
+    padding-bottom: 56.25%;
+  }
+  .youtube iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none; /*境界線の打ち消し*/
+  }
+  .title {
+    margin-top: 20px;
+  }
+  .title h2 {
+    font-size: 1.0rem;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+  }
+  .title p {
+    font-size: 0.7rem;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+  }
+  .outline h1 {
+    margin-top: 13px;
+    margin-bottom: 0px;
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+  }
+  .outline h2 {
+    margin-top: 1rem;
+    font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.0rem;
+    line-height: 1.75;
+    letter-spacing: 0.1em;
+  }
+  .outline {
+    font-weight: 500;
+    margin: 5vw;
+    padding: 3vw;
+  }
+  .outline p {
+    width: 80%;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    font-style: normal;
+    font-size: 0.9rem;
+    line-height: 1.9;
+    letter-spacing: 0.1em;
+    word-wrap: break-word;
+  }
+  .large-figure img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .small-figure img {
+    width: 100%;
+    height: 100%;
+	   max-width: 100%;
+    max-height: 100%;
+    /*max-width: 70%;
   max-height: 100%;*/
-	}
-	
-footer {
-  width: 100%;
-  height: 120px;
-  text-align: center;
-  padding: 50px 0;
-  background-color: #ffffff;
-}
-footer p {
-  font-size: 0.5rem;
-  padding-top: 100px;
-}
-.contentWrapper {
-  margin: 0vw;
-  padding: 0vw;
-}
+  }
+  footer {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    padding: 50px 0;
+    background-color: #ffffff;
+  }
+  footer p {
+    font-size: 0.5rem;
+    padding-top: 100px;
+  }
+  .contentWrapper {
+    margin: 0vw;
+    padding: 0vw;
+  }
 }
