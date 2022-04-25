@@ -345,7 +345,7 @@ footer p {
   font-size: 0.9vw;
   padding-top: 100px;
 }
-@media screen and (min-width:481px) and (max-width:950px) {
+@media screen and (min-width:581px) and (max-width:950px) {
   /*　for iPad 　*/
   .item_other :hover {
     font-weight: bold;
@@ -422,7 +422,7 @@ footer p {
     border: none;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 580px) {
   /* ここからスマホ向け */
 	
   header {
