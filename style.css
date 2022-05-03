@@ -307,7 +307,7 @@ a {
   letter-spacing: 0.1em;
 }
 .intro p {
-  width: 100vw;
+  width: 100%;
   padding-top: 0.7rem;
   padding-bottom: 0.7rem;
   font-style: normal;
