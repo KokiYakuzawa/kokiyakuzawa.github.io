@@ -438,7 +438,7 @@ footer p {
     right: 0;
   }
   header ul {
-  /*  display: none; */
+    display: flex; 
   }
   #name p {
     width: auto;
