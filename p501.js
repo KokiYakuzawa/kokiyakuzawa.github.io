@@ -8,6 +8,7 @@ function setup(): void {
 
 function draw(): void {
   background(0);
+  ellipse(200,200,10,10);
 
   if (mouseIsPressed) {
     fill(255);
