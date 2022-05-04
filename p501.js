@@ -69,7 +69,7 @@ function draw() {
   
   
   
-  background(255);
+  background(25);
    rect(wx/2-100, wy/2-60, 200, 120);
   image(pg,0,0);
 
