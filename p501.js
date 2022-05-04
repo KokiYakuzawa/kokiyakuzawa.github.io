@@ -38,22 +38,22 @@ function draw() {
   // map()で、マウスを動かした時のスケールを拡張。ここもう少しまとめられる気がする
   var mx = map(
     mouseX, 
-    windowWidth/3, windowHeight*2/3, 
+    400,800,
     0, 10000
     );
   var my = map(
     mouseY, 
-    windowWidth/3, windowHeight*2/3, 
+    400,800,
     0, 10000
     );
   var pmx = map(
     pmouseX, 
-   windowWidth/3, windowHeight*2/3, 
+    400,800,
     0, 10000
     );
  var pmy = map(
     pmouseY, 
-   windowWidth/3, windowHeight*2/3, 
+   400,800,
     0, 10000
     );
     
