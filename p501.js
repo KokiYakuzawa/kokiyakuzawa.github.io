@@ -7,10 +7,10 @@ let wx;
 let wy;
 
 //事前読み込みをpreload関数で行う
-function preload() {
+//function preload() {
   //変数を使って画像をロード
-  img = loadImage("kaso.png"); 
-}
+ // img = loadImage("kaso.png"); 
+//}
 
 //層を追加して線の軌跡を残しつつカーソルの軌跡を消すための何か
 
@@ -76,8 +76,8 @@ function draw() {
 
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
-  image(img, mx-60, my-60); 
- //rect( mx-60, my-60,100,100);
+ // image(img, mx-60, my-60); 
+ rect( mx-60, my-60,100,100);
  
  
   
