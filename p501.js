@@ -21,7 +21,7 @@ function setup() {
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
-  pg = createGraphics(1000, 1080);
+  pg = createGraphics(windowWidth, windowHeight);
   img= loadImage("kaso.png"); 
  
   //画面を固定する記述
@@ -57,13 +57,12 @@ function draw() {
     wy/2-5000, wy/2+5000
     );
 
- /* pg.beginDraw();*/
+
 //マウスを押したとき線を描く
   if (mouseIsPressed) {
    pg.strokeWeight(18);
     
     pg.line(pmx, pmy, mx, my);
-  
    
   }
   
