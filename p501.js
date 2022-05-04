@@ -4,11 +4,28 @@
 
 
 
- var i =0;
+
+ 
+
+let img; //画像表示の変数
+let pg;
+
+//事前読み込みをpreload関数で行う
+function preload() {
+  //変数を使って画像をロード
+  /* img = loadImage("https://loremflickr.com/600/600"); */
+}
+
+//層を追加して線の軌跡を残しつつカーソルの軌跡を消すための何か
+
+
 function setup() {
+
+  background(255);
   createCanvas(windowWidth,windowHeight);
- rectMode(CENTER);
-   
+  pg = createGraphics(1920, 1080);
+  /* img= loadImage("kaso.png"); */
+ 
    //画面を固定する記述
     window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
   window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
@@ -16,21 +33,44 @@ function setup() {
 }
 
 function draw() {
-  
-  background(255);
-  noStroke();
-  fill(0);
-   i++;
-    ellipse(windowWidth/2,i,20,20)
-  if(i>windowHeight){
-    i=0;
-  }
-  
-  fill(80);
-  rect(windowWidth/2,windowHeight/2,50,182);
-  fill(255);
-  rect(windowWidth/2,windowHeight/2,100,180);
  
+ 
+  // map()で、マウスを動かした時のスケールを拡張。ここもう少しまとめられる気がする
+  var mx = map(
+    mouseX, 
+    windowWidth/3, windowHeight*2/3, 
+    0, 10000
+    );
+  var my = map(
+    mouseY, 
+    windowWidth/3, windowHeight*2/3, 
+    0, 10000
+    );
+  var pmx = map(
+    pmouseX, 
+   windowWidth/3, windowHeight*2/3, 
+    0, 10000
+    );
+ var pmy = map(
+    pmouseY, 
+   windowWidth/3, windowHeight*2/3, 
+    0, 10000
+    );
+    
+ /* pg.beginDraw();*/
+//マウスを押したとき線を描く
+  if (mouseIsPressed) {
+    pg.strokeWeight(18);
+    pg.line(pmx, pmy, mx, my);
+   // pg.endDraw();
+   
+  }
+   
+  background(255);
   
-  
+rect(windowWidth/3, windowHeight/3, windowWidth*2/3,windowHeight*2/3);
+ /* image(pg, 0, 0);*/
+//デカいマウスを動かす
+ /* image(img, mx-60, my-60); */
+   rect( mx-60, my-60,100,100);
 }
