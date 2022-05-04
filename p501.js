@@ -16,12 +16,12 @@ function preload() {
 
 
 function setup() {
-  wx= width;
-   wy= height;
+  wx= windowWidth;
+   wy= windowHeight;
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
-  pg = createGraphics(width, height);
+  pg = createGraphics(windowWidth, windowHeight);
   img= loadImage("kaso.png"); 
  
   //画面を固定する記述
