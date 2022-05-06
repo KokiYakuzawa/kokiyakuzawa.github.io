@@ -345,7 +345,7 @@ footer p {
 }
 /* ここからCVのPAGE*/
 
-cv_outline h1 {
+.cv_outline h1 {
 	  font-family: dnp-shuei-mincho-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
 	    YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-weight: 600;
@@ -353,7 +353,7 @@ cv_outline h1 {
     line-height: 1.75;
     letter-spacing: 0.2vw;
 }
-cv_outline h2 {
+.cv_outline h2 {
 	  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
 	    YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-weight: 600;
