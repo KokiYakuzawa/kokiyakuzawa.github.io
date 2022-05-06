@@ -312,11 +312,11 @@ a {
 }
 .intro p {
   width: 100%;
-  padding-top: 0.7rem;
+  padding-top: 0.3rem;
   padding-bottom: 0.7rem;
   font-style: normal;
   font-size: 0.7rem;
-  line-height: 1.9;
+  line-height: 2.5;
   letter-spacing: 0.1em;
 }
 .large-figure img {
@@ -360,6 +360,15 @@ footer p {
     font-size: 1.0vw;
     line-height: 1.75;
     letter-spacing: 0.2vw;
+}
+.cv_outline p {
+  width: 360px;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  font-style: normal;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  letter-spacing: 0.1em;
 }
 	
 	
