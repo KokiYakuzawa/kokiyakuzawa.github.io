@@ -340,7 +340,7 @@ footer p {
 .cv_outline h1 {
 	 font-family: a-otf-midashi-go-mb31-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
 	    YuGothic, "メイリオ", Meiryo, sans-serif ;
-    font-weight: 600;
+
     font-size: 1.8vw;
     line-height: 1.75;
     letter-spacing: 0.2vw;
@@ -364,20 +364,12 @@ footer p {
 }
 .intro p {
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 10rem;
   font-style: normal;
   font-size: 0.7rem;
   line-height: 2.5;
   letter-spacing: 0.1em;
 }
-	
-	
-	
-	
-	
-	
-
-
 
 
 
