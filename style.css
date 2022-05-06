@@ -310,15 +310,7 @@ a {
   line-height: 1.9;
   letter-spacing: 0.1em;
 }
-.intro p {
-  width: 100%;
-  padding-top: 0.3rem;
-  padding-bottom: 0.7rem;
-  font-style: normal;
-  font-size: 0.7rem;
-  line-height: 2.5;
-  letter-spacing: 0.1em;
-}
+
 .large-figure img {
   padding-top: 1.6rem;
   width: auto;
@@ -346,7 +338,7 @@ footer p {
 /* ここからCVのPAGE*/
 
 .cv_outline h1 {
-	  font-family: dnp-shuei-mincho-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
+	 font-family: a-otf-midashi-go-mb31-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
 	    YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-weight: 600;
     font-size: 1.8vw;
@@ -368,6 +360,14 @@ footer p {
   font-style: normal;
   font-size: 0.9rem;
   line-height: 1.9;
+  letter-spacing: 0.1em;
+}
+.intro p {
+  width: 100%;
+  padding-top: 1rem;
+  font-style: normal;
+  font-size: 0.7rem;
+  line-height: 2.5;
   letter-spacing: 0.1em;
 }
 	
