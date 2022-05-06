@@ -121,7 +121,8 @@ a {
     width: 30vw;
     margin-top: 8vw;
     margin-left: 4vw;
-    font-family: dnp-shuei-mincho-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", YuGothic, "メイリオ", Meiryo, sans-serif ;
+    font-family: dnp-shuei-mincho-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
+	    YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-weight: 600;
     font-style: normal;
     font-size: 1.6vw;
@@ -238,7 +239,7 @@ a {
     border: none;
   }
 }
-/*ここよりpageにつき関係者以外対入り禁止*/
+/*ここからpage */
 .page {
   margin: 1vw 5vw;
   padding: 1vw 1vw;
@@ -342,6 +343,37 @@ footer p {
   font-size: 0.9vw;
   padding-top: 100px;
 }
+/* ここからCVのPAGE*/
+
+cv_outline h1 {
+	  font-family: dnp-shuei-mincho-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
+	    YuGothic, "メイリオ", Meiryo, sans-serif ;
+    font-weight: 600;
+    font-size: 1.8vw;
+    line-height: 1.75;
+    letter-spacing: 0.2vw;
+}
+cv_outline h2 {
+	  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
+	    YuGothic, "メイリオ", Meiryo, sans-serif ;
+    font-weight: 600;
+    font-size: 1.0vw;
+    line-height: 1.75;
+    letter-spacing: 0.2vw;
+}
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+
+
 @media screen and (min-width:600px) and (max-width:950px) {
   /*　for iPad 　*/
   .item_other :hover {
