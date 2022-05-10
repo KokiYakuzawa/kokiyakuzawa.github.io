@@ -86,6 +86,11 @@ a {
   line-height: 1.9;
   letter-spacing: 0.1em;
 }
+#name :hover {
+    font-weight: bold;
+    border: solid 0.1vw #000000;
+    transition: 1.0s;
+  }
 @media screen and (min-width: 481px) {
   .item {
     widht: 100%;
@@ -243,6 +248,15 @@ a {
 .page {
   margin: 1vw 5vw;
   padding: 1vw 1vw;
+}
+.page a{
+	font-size: 1.3rem;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration:underline;
+	
 }
 .youtube {
   position: relative;
