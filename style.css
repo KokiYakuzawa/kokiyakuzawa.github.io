@@ -263,16 +263,7 @@ header h1 {
   margin: 1vw 5vw;
   padding: 1vw 1vw;
 }
-.cv_outline a{
-	font-size: 1.9rem;
-  line-height: 1.75;
-  letter-spacing: 0.1em;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-decoration:underline;
-	color: #60c3f7;
-	
-}
+
 .youtube {
   position: relative;
   width: 100%;
@@ -390,6 +381,16 @@ footer p {
   font-size: 0.9rem;
   line-height: 1.9;
   letter-spacing: 0.1em;
+}
+.cv_outline a{
+	font-size: 1.9rem;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-decoration:underline;
+	color: #60c3f7;
+	
 }
 .intro p {
   width: 100%;
