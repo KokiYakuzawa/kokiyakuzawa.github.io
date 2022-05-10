@@ -63,12 +63,7 @@ header h1 {
 	
 	
 }
-.name a {
-    width: 380px;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
-    height: 26vw;
-  }
+
 .contentWrapper {
   margin: 3vw;
   padding: 5vw;
@@ -101,11 +96,7 @@ header h1 {
   letter-spacing: 0.1em;
 	border :none;
 }
-.name :hover {
-    font-weight: bold;
-    border: solid 0.1vw #000000;
-    transition: 1.0s;
-  }
+
 @media screen and (min-width: 481px) {
   .item {
     widht: 100%;
