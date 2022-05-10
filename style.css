@@ -60,39 +60,73 @@ header h1 {
   padding: 5vw;
 }
 .container {
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;*/
+
 }
 .name {
- widht: 380px;
+	padding-top:100px;
+    width: 400px;
+	height: auto;
     margin: 0 auto;
     display: block;
+	text-align:left;
+    border: solid 0.1vw #ffffff;
+    
+  }
+  .name :hover {
+   
+    border: solid 0.1vw #000000;
+    transition: 1.0s;
+  }
+.name a {
+    display: block;
+    width: 100%;
+    
+    height: auto;
+	 border: solid 0.1vw #ffffff;
+  }
+.name ul{
+	display: block;
+   
+   
+    height: 26vw;
+   
 }
 
 .name h1 {
   padding-top: 2rem;
-  margin-left:0.2rem;
   font-style: normal;
   font-size: 1.1rem;
   font-weight: 600;
   line-height: 1.9;
   letter-spacing: 0.2em;
-	border :none;
 }
 .name p {
   width: 360px;
   word-wrap: break-word;
-  margin-left:0.2rem;
   padding-top: 1rem;
-  padding-bottom: 3rem;
+  padding-bottom: 1rem;
   font-style: normal;
   font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.9;
   letter-spacing: 0.1em;
-	border :none;
-}
+	
+} 
+  .name ul :hover{
+	  border:none;
+	  }
+	  .name a :hover{
+	  border:none;
+	  }.name h2 :hover{
+	  border:none;
+	  }.name p :hover{
+	  border:none;
+	  }
+ 
+.name p:hover {
+    font-style: normal;
+    border: none;
+  }
 
 @media screen and (min-width: 481px) {
 	
