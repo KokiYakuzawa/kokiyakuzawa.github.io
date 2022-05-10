@@ -55,8 +55,8 @@ header h1 {
 a {
   text-decoration: none;
 }
-#name {
-  padding-top: 7rem;
+.name {
+  margin-top: 7rem;
 }
 .contentWrapper {
   margin: 3vw;
@@ -67,7 +67,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;*/
 }
-#name h1 {
+.name h1 {
   padding-top: 2rem;
   font-style: normal;
   font-size: 1.1rem;
@@ -75,7 +75,7 @@ a {
   line-height: 1.9;
   letter-spacing: 0.2em;
 }
-#name p {
+.name p {
   width: 360px;
   word-wrap: break-word;
   padding-top: 1rem;
@@ -86,7 +86,7 @@ a {
   line-height: 1.9;
   letter-spacing: 0.1em;
 }
-#name :hover {
+.name :hover {
     font-weight: bold;
     border: solid 0.1vw #000000;
     transition: 1.0s;
