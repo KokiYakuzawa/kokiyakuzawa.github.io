@@ -95,20 +95,6 @@ header h1 {
 }
 
 @media screen and (min-width: 481px) {
-	 .name :hover {
-    font-weight: bold;
-    border: solid 0.1vw #000000;
-    transition: 1.0s;
-  }
-	 .name ul :hover {
-    border: none;
-  }
-	 .name a :hover {
-    border: none;
-  }
-	
-	
-	
 	
 
   .item {
