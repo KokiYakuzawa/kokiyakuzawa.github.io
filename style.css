@@ -249,13 +249,14 @@ a {
   margin: 1vw 5vw;
   padding: 1vw 1vw;
 }
-.page a{
-	font-size: 1.3rem;
+.cv_outline a{
+	font-size: 1.9rem;
   line-height: 1.75;
   letter-spacing: 0.1em;
   margin-top: 20px;
   margin-bottom: 20px;
   text-decoration:underline;
+	color: #60c3f7;
 	
 }
 .youtube {
