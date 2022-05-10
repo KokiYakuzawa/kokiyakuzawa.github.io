@@ -63,12 +63,12 @@ header h1 {
 
 }
 .name {
-	padding-top:100px;
+    padding-top:100px;
     width: 400px;
-	height: auto;
-    margin: 0 auto;
+    height: auto;
+    margin-left: 1vw;
     display: block;
-	text-align:left;
+	
     border: solid 0.1vw #ffffff;
     
   }
