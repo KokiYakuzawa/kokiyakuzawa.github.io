@@ -55,11 +55,21 @@ header h1 {
 }
 
 .name {
-  margin-top: 7rem;
-	  width: 380px;
+ widht: 380px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	
 	
 	
 }
+.item a {
+    width: 380px;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    height: 26vw;
+  }
 .contentWrapper {
   margin: 3vw;
   padding: 5vw;
