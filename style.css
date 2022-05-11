@@ -364,7 +364,7 @@ header h1 {
   max-height: 100%;
 }
 .small-figure img {
-　padding-top:150px;
+　padding-top:200px;
   width: auto;
   height: auto;
   max-width: 70%;
@@ -384,7 +384,7 @@ footer p {
 /* ここからCVのPAGE*/
 
 .cv_outline h1 {
-	padding-top:100px;
+	padding-top:30px;
 	 font-family: a-otf-midashi-go-mb31-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
 	    YuGothic, "メイリオ", Meiryo, sans-serif ;
 
@@ -393,7 +393,7 @@ footer p {
     letter-spacing: 0.2vw;
 }
 .cv_outline h2 {
-	padding-top:80px;
+	padding-top:30px;
 	  font-family: a-otf-midashi-go-mb31-pr6n, sans-serif　, "游ゴシック Medium", "Yu Gothic", 
 	    YuGothic, "メイリオ", Meiryo, sans-serif ;
     font-weight: 600;
