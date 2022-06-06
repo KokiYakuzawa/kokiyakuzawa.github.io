@@ -65,7 +65,7 @@ ellipse(x,y,38,38);
    /*x=x+xs;*/
   
  
-  if(y<0&&t>0.97){
+  if(y<0&&t>0.9){
     y=height;
     x=random(width/3,2*width/3);
     xs=random(-3,3);
