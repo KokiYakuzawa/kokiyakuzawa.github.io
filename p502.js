@@ -160,15 +160,15 @@ ellipse(x,y,38,38);
  }//えの影
    fill(230,80);
   noStroke();
-   rect(0,height/2+5,80,15);
+   rect(0,height/2+5,75,15);
    fill(220,80);
  
-   rect(0,height/2+5,80,10);
+   rect(0,height/2+5,75,10);
   
   //ポイのえ
    fill(158, 214, 230);
   noStroke();
-   rect(0,height/2-5,120,15);
+   rect(0,height/2-5,110,15);
   print(hol);
   //score
   angleMode(DEGREES);
