@@ -244,14 +244,14 @@ header h1 {
     height: auto;
   }
   .item_other h2 {
-    font-size: 1.0vw;
+    font-size: 0.9vw;
     margin-top: 2.7vw;
     margin-left: 3vw;
     font-style: normal;
     line-height: 1.75;
   }
   .item_other p {
-    font-size: 0.8vw;
+    font-size: 0.7vw;
     margin-left: 3vw;
     border-left: solid 0.2vw #9B9B9B;
     font-weight: 400;
