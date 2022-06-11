@@ -206,7 +206,7 @@ if(hol===true){
   }else{
       fill(250, 90, 90);
   }
-    rect(-height / 2 +310, -width / 2 + 40,hurtM,9,0,9,0,9);
+    rect(-height / 2 +310, -width / 2 + 40,hurtM,9,9,9,0,9);
   
 }else{
   hurt=100;
