@@ -196,7 +196,9 @@ ellipse(x,y,38,38);*/
 if(hol===true){
   fill(220);
    rect(-height / 2 +310, -width / 2 + 40,80,9,9);
+  if(hurt>0){
    hurt-=2.5;
+  };
     hurtM=map(hurt,100,0,80,0);
     fill(0);
   if(hurtM>25){
