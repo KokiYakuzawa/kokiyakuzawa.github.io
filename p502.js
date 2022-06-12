@@ -192,19 +192,17 @@ ellipse(x,y,38,38);*/
   print(flg);
   //score
   angleMode(DEGREES);
-  translate(width / 2, height / 2);
+    translate(width-20, 0);
   rotate(90);
   textSize(20);
   fill(44, 169, 242);
-  text(score + "  匹 め", -height / 2 + 60, -width / 2 + 36);
-  
+  text(score + "  匹 め", 30,30);
+  //rectMode(CENTER);
   //ポイの体力max80
 if(hol===true){
   fill(220);
-   rect(-height / 2 +330, -width / 2 + 40,80,9,9);
-  if(hurt>0){
+   rect(height/2-40,30,100,9,9);
    hurt-=2.5;
-  };
     hurtM=map(hurt,100,0,80,0);
     fill(0);
   if(hurtM>25){
@@ -212,8 +210,7 @@ if(hol===true){
   }else{
       fill(250, 90, 90);
   }
-    rect(-height / 2 +330, -width / 2 + 40,hurtM,9,9,9,0,9);
-  
+    rect(height/2-40,30,hurtM,9,9,0,0,9);
 }else{
   hurt=100;
 }
