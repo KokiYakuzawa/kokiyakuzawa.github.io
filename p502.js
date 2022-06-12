@@ -201,7 +201,7 @@ ellipse(x,y,38,38);*/
   //ポイの体力max80
 if(hol===true){
   fill(220);
-   rect(-height / 2 +310, -width / 2 + 40,80,9,9);
+   rect(-height / 2 +270, -width / 2 + 40,80,9,9);
   if(hurt>0){
    hurt-=2.5;
   };
