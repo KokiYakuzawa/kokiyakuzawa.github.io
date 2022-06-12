@@ -244,8 +244,7 @@ class W {
     fill(220, 100);
     ellipse(this.x - 46, this.y + 19, 30, 30);
     //金魚
-     fill(255, 107, 107);
- ellipse(this.x, this.y, 38, 38);
+   
   
   }
   display_k(){
