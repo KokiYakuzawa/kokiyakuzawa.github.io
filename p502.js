@@ -202,7 +202,9 @@ ellipse(x,y,38,38);*/
 if(hol===true){
   fill(220);
    rect(height/2-40,30,100,9,9);
+  if(hurt>0){
    hurt-=2.5;
+  };
     hurtM=map(hurt,100,0,80,0);
     fill(0);
   if(hurtM>25){
@@ -210,7 +212,8 @@ if(hol===true){
   }else{
       fill(250, 90, 90);
   }
-    rect(height/2-40,30,hurtM,9,9,0,0,9);
+  
+    rect(height/2-40,30,hurtM,9,9,9,0,9);
 }else{
   hurt=100;
 }
