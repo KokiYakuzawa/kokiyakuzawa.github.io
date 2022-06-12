@@ -133,6 +133,7 @@ ellipse(x,y,38,38);*/
     for (let i = 0; i < num; i++) {
      
       w[i].display();
+      w[i].display_k();
       w[i].flgtate();
     }
     
