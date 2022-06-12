@@ -1,11 +1,17 @@
 let w = [];
 const num = 3;
 let t, r, count, score,hurt;
+
+function preload() {
+  // setupより先に実行
+  font = loadFont("UDDigiKyokashoN-B.ttc");
+}
+
 function setup() {
   createCanvas(width, height);
   
 
- 
+ textFont(font);
   
 hurt=100;
   t = 0;
@@ -206,7 +212,7 @@ if(hol===true){
   }else{
       fill(250, 90, 90);
   }
-    rect(-height / 2 +310, -width / 2 + 40,hurtM,9,9,9,0,9);
+    rect(-height / 2 +270, -width / 2 + 40,hurtM,9,9,9,0,9);
   
 }else{
   hurt=100;
