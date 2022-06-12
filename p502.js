@@ -4,7 +4,7 @@ let t, r, count, score,hurt;
 
 function preload() {
   // setupより先に実行
-  font = loadFont("UDDigiKyokashoN-B.ttc");
+  font = loadFont("UDDigiKyokashoNK-B-03.ttf");
 }
 
 function setup() {
