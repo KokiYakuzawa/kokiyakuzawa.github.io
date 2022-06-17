@@ -53,14 +53,9 @@ function draw() {
    pg.strokeWeight(18);
     
     pg.line(pmx, pmy, mx, my);
-    pg.line(pmouseX,pmouseY,mouseX,mouseY);
+    pg.ellipse(mouseX,mouseY,40,40);
    
   }
-  for(let i=0;i<100;i++){
-    
-    pg.ellipse(i*10,0,10,10);
-  }
-  
   
   
   background(255);
