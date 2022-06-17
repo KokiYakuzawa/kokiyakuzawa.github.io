@@ -66,7 +66,7 @@ function draw() {
 //デカいマウスを動かす
   image(img, mx, my); 
 // rect( mx-60, my-60,100,100);
- ellipse(30,30,30,30);
+ ellipse(mx,my,30,30);
  
   
   
