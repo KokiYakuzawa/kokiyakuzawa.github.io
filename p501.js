@@ -5,8 +5,8 @@ let img; //画像表示の変数
 let pg;
 let wx;
 let wy;
-let realx=400;
-let realy=800;
+let realx=width/4;
+let realy=height/4;
 let extx=1;
 let exty=10000;
 
