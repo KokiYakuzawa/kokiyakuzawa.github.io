@@ -5,8 +5,8 @@ let img; //画像表示の変数
 let pg;
 let wx;
 let wy;
-let realx=width/4;
-let realy=height/4;
+let realx=400;
+let realy=800;
 let extx=0;
 let exty=10000;
 
@@ -64,7 +64,7 @@ function draw() {
 
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
-  image(img, pmx-10, pmy-10); 
+  image(img, mx, my); 
 // rect( mx-60, my-60,100,100);
  
  
