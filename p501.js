@@ -39,7 +39,8 @@ frameRate(30);
 function draw() {
  
  
-  // map()で、マウスを動かした時のスケールを拡張。ここもう少しまとめられる気がする
+ 
+ 
   let mx = map(mouseX,realx,realy,extx,exty);
    let my = map(mouseY,realx,realy,extx,exty);
    let pmx = map(pmouseX,realx,realy,extx,exty);
@@ -51,7 +52,7 @@ function draw() {
   if (mouseIsPressed) {
    pg.strokeWeight(18);
     
-    pg.line(pmx, pmy, mx, my);
+    pg.line(pg.pmx, pg.pmy, pg.mx, pg.my);
     pg.line(pmouseX,pmouseY,mouseX,mouseY);
    
   }
