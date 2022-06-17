@@ -56,6 +56,10 @@ function draw() {
     pg.line(pmouseX,pmouseY,mouseX,mouseY);
    
   }
+  for(let i=0;i<100;i++){
+    
+    pg.ellipse(i*10,0,10,10);
+  }
   
   
   
