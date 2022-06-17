@@ -7,7 +7,7 @@ let wx;
 let wy;
 let realx=width/4;
 let realy=height/4;
-let extx=1;
+let extx=0;
 let exty=10000;
 
 //事前読み込みをpreload関数で行う
