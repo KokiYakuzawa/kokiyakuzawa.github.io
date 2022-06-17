@@ -29,8 +29,8 @@ frameRate(30);
   img= loadImage("kaso.png"); 
  
   //画面を固定する記述
-    window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
-  window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
+   // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
+ // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
   
  
 
@@ -54,9 +54,14 @@ function draw() {
     
     pg.line(pmx, pmy, mx, my);
     pg.ellipse(mouseX,mouseY,40,40);
+    
    
   }
-  
+  for(let i=0;i<100;i++){
+    pg.ellipse(i*10,0,10,10);
+     ellipse(i*10,100,10,10);
+    
+  }
   
   background(255);
   // rect(width/4, height/4, 200, 120);
