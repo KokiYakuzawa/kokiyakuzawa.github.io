@@ -52,6 +52,7 @@ function draw() {
    pg.strokeWeight(18);
     
     pg.line(pmx, pmy, mx, my);
+    pg.line(pmouseX,pmouseY,mouseX,mouseY);
    
   }
   
