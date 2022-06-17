@@ -5,6 +5,10 @@ let img; //画像表示の変数
 let pg;
 let wx;
 let wy;
+let realx=400;
+let realy=800;
+let extx=1;
+let exty=10000;
 
 //事前読み込みをpreload関数で行う
 function preload() {
@@ -36,27 +40,12 @@ function draw() {
  
  
   // map()で、マウスを動かした時のスケールを拡張。ここもう少しまとめられる気がする
-  var mx = map(
-    mouseX, 
-   400,800,
-  1,10000
-    );
-  var my = map(
-    mouseY, 
-     400,800,
-  1,10000
-    );
-  var pmx = map(
-    pmouseX, 
-     400,800,
-  1,10000
-    );
- var pmy = map(
-    pmouseY, 
-     400,800,
-  1,10000
-    );
-
+  let mx = map(mouseX,realx,realy,extx,exty);
+   let my = map(mouseY,realx,realy,extx,exty);
+   let pmx = map(pmouseX,realx,realy,extx,exty);
+   let pmy = map(pmouseY,realx,realy,extx,exty);
+  
+  
 
 //マウスを押したとき線を描く
   if (mouseIsPressed) {
@@ -75,7 +64,7 @@ function draw() {
 
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
-  image(img, mx-60, my-60); 
+  image(img, mx-10, my-10); 
 // rect( mx-60, my-60,100,100);
  
  
