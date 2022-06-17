@@ -20,8 +20,8 @@ function preload() {
 
 
 function setup() {
-  wx= 500;
-   wy= 500;
+  wx= 1000;
+   wy= 1000;
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
