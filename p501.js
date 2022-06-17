@@ -64,7 +64,7 @@ function draw() {
 
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
-  image(img, mx-10, my-10); 
+  image(img, pmx-10, pmy-10); 
 // rect( mx-60, my-60,100,100);
  
  
