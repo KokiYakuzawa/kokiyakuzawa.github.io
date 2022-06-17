@@ -8,7 +8,7 @@ let wy;
 let realx=400;
 let realy=800;
 let extx=0;
-let exty=10000;
+let exty=100;
 
 //事前読み込みをpreload関数で行う
 function preload() {
@@ -20,8 +20,8 @@ function preload() {
 
 
 function setup() {
-  wx= 1000;
-   wy= 1000;
+  wx= windowWidth;
+   wy= windowHeight;
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
