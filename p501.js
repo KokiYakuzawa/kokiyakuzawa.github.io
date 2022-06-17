@@ -57,13 +57,14 @@ function draw() {
     
    
   }
-  for(let i=0;i<100;i++){
+ 
+  
+  background(255);
+   for(let i=0;i<100;i++){
     pg.ellipse(i*10,0,10,10);
      ellipse(i*10,100,10,10);
     
   }
-  
-  background(255);
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
 
