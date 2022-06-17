@@ -20,8 +20,8 @@ function preload() {
 
 
 function setup() {
-  wx= windowWidth;
-   wy= windowHeight;
+  wx= 500;
+   wy= 500;
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
@@ -52,8 +52,8 @@ function draw() {
   if (mouseIsPressed) {
    pg.strokeWeight(18);
     
-    pg.line(pg.pmx, pg.pmy, pg.mx, pg.my);
-    pg.line(pg.pmouseX,pg.pmouseY,pg.mouseX,pg.mouseY);
+    pg.line(pmx, pmy, mx, my);
+    pg.line(pmouseX,pmouseY,mouseX,mouseY);
    
   }
   
