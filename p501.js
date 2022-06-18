@@ -34,8 +34,8 @@ frameRate(30);
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
- realL=400;
-  realR=800;
+ realL=wx*3/7;
+  realR=wx*4/7;
   extL=0;
   extR=10000;
  
@@ -70,16 +70,16 @@ function draw() {
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-rect(wx/4,wy/4,100,80);
+rect(wx*3/7,wx*3/7,100,80);
 
 
 
 
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
-  image(img, mx, my); 
+  image(img, mx-60, my-60); 
  noFill();
- rect( mx-60, my-60,100,100);
+// rect( mx-60, my-60,100,100);
  
  //ellipse(mx-60,my-60,30,30);
  
