@@ -40,13 +40,13 @@ frameRate(30);
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
  realxL=wx*7/15;
   realxR=wx*8/15;
-  extxL=-5000;
-  extxR=5000;
+  extxL=0;
+  extxR=wx*10;
   
    realyL=wy*7/15;
   realyR=wy*8/15;
-  extyL=-5000;
-  extyR=5000;
+  extyL=0;
+  extyR=wy*10;
 
 }
 
@@ -77,8 +77,8 @@ function draw() {
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-rect(wx*7/15,wy*7/15,wx*8/15,wy*8/15);
- rect(300,300,700,700);
+rect(wx*7/15,wy*7/15,300,120);
+
 
 
 
