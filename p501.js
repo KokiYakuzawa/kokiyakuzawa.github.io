@@ -50,7 +50,7 @@ function draw() {
   let mx = map(mouseX,realL,realR,extL,extR);
   let my = map(mouseY,realL,realR,extL,extR);
   let pmx = map(mouseX,realL,realR,extL,extR);
-  let pmy = map(mousey,realL,realR,extL,extR);
+  let pmy = map(mouseY,realL,realR,extL,extR);
   
   
   
