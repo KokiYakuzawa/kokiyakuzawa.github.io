@@ -5,16 +5,12 @@ let img; //画像表示の変数
 let pg;
 let wx;
 let wy;
-let  realxL;
- let realxR;
- let extxL;
- let extxR;
+let  realL;
+ let realR;
+ let extL;
+ let extR;
   
- let  realyL;
- let realyR;
- let extyL;
- let extyR;
-
+ 
 //事前読み込みをpreload関数で行う
 function preload() {
   //変数を使って画像をロード
@@ -38,15 +34,11 @@ frameRate(30);
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
- realxL=wx*7/15;
-  realxR=wx*8/15;
-  extxL=0;
-  extxR=wx*10;
-  
-   realyL=wy*7/15;
-  realyR=wy*8/15;
-  extyL=0;
-  extyR=wy*10;
+ realL=400;
+  realR=800;
+  extL=0;
+  extR=10000;
+ 
 
 }
 
@@ -55,10 +47,11 @@ function draw() {
  
  
  
-  let mx = map(mouseX,realxL,realxR,extxL,extxR);
-   let my = map(mouseY,realyL,realyR,extyL,extyR);
-   let pmx = map(mouseX,realxL,realxR,extxL,extxR);
-   let pmy = map(mouseY,realyL,realyR,extyL,extyR);
+  let mx = map(mouseX,realL,realR,extL,extR);
+  let my = map(mouseY,realL,realR,extL,extR);
+  let pmx = map(mouseX,realL,realR,extL,extR);
+  let pmy = map(mousey,realL,realR,extL,extR);
+  
   
   
 
