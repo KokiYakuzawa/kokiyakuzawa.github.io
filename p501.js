@@ -42,6 +42,12 @@ let cnv= createCanvas(windowWidth, windowHeight);
   extL=-1000;
   extR=1000;
  
+ textSize(32);
+
+
+let t = '←この枠にマウスカーソルを置く.※クリックで描画.';
+
+
 
 }
 
@@ -78,7 +84,8 @@ function draw() {
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
 rect(width/2,width/2,50,30);
-
+ fill(80);
+text(t, width/2+55,width/2+10,100, 100);
 
 
 
