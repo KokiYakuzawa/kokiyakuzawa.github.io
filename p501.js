@@ -20,6 +20,7 @@ function preload() {
 
 
 function setup() {
+  
   wx= windowWidth;
    wy= windowHeight;
 frameRate(30);
@@ -27,7 +28,7 @@ frameRate(30);
   createCanvas(wx,wy);
   pg = createGraphics(600, 600,WEBGL);
   img= loadImage("kaso.png"); 
- 
+ pixelDensity(1);
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
