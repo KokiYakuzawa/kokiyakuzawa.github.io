@@ -54,7 +54,8 @@ function draw() {
   
   
   
-translate(wx*1/2-20, wy*1/2);
+translate(width*1/2-20, height*1/2);
+ pg.translate(width*1/2-20, height*1/2);
 //マウスを押したとき線を描く
   if (mouseIsPressed) {
    pg.strokeWeight(18);
