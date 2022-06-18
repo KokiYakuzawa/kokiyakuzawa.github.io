@@ -78,6 +78,8 @@ function draw() {
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
 rect(wx*7/15,wy*7/15,wx*8/15,wy*8/15);
+ rect(300,300,700,700);
+
 
 
  /* image(pg, 0, 0);*/
