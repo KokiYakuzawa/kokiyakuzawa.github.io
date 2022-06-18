@@ -26,7 +26,7 @@ function setup() {
    wy= windowHeight;
 frameRate(30);
   background(255);
-  createCanvas(wx,wy);
+ createCanvas(windowWidth, windowHeight, WEBGL);
    pixelDensity(1);
   pg = createGraphics(wx, wy+350);
   img= loadImage("kaso.png"); 
