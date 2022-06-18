@@ -80,6 +80,7 @@ function draw() {
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
+ noFill();
 rect(width/2,width/2,50,30);
  fill(80);
   textSize(12);
