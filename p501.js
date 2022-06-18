@@ -70,7 +70,7 @@ translate(wx*1/2-20, wy*1/2);
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-rect(wx*1/7,wx*2/7,50,30);
+rect(wx*1/7,wy*2/7,50,30);
 
 
 
