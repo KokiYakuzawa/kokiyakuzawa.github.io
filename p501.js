@@ -28,7 +28,7 @@ frameRate(30);
   background(255);
   createCanvas(wx,wy);
    pixelDensity(1);
-  pg = createGraphics(wx, wy);
+  pg = createGraphics(wx, wy+350);
   img= loadImage("kaso.png"); 
 
   //画面を固定する記述
@@ -55,7 +55,7 @@ function draw() {
   let pmx = map(px,realL,realR,extL,extR);
   let pmy = map(py,realL,realR,extL,extR);
   
-   translate(0,-150);
+   translate(0,-350);
   
 
  //pg.translate(width*1/2-20, height*1/2);
