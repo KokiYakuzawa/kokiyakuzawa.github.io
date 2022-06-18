@@ -79,11 +79,14 @@ function draw() {
   image(pg,0,0);
 rect(wx*7/15,wy*7/15,wx*8/15,wy*8/15);
 
+
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
   image(img, mx, my); 
-// rect( mx-60, my-60,100,100);
- ellipse(mx-60,my-60,30,30);
+ noFill();
+ rect( mx-60, my-60,100,100);
+ 
+ //ellipse(mx-60,my-60,30,30);
  
   
   
