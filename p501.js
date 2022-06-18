@@ -34,10 +34,10 @@ frameRate(30);
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
- realL=0;
-  realR=400;
+ realL=width/2-20;
+  realR=width/2+20;
   extL=0;
-  extR=10000;
+  extR=1000;
  
 
 }
@@ -54,7 +54,7 @@ function draw() {
   
   
   
-translate(width*1/2-20, height*1/2);
+
  //pg.translate(width*1/2-20, height*1/2);
 //マウスを押したとき線を描く
   if (mouseIsPressed) {
@@ -71,7 +71,7 @@ translate(width*1/2-20, height*1/2);
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-rect(0,0,50,30);
+rect(width/2,width/2,50,30);
 
 
 
