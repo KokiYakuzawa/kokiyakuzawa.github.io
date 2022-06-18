@@ -70,7 +70,7 @@ function draw() {
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-rect(wx*7/15,wy*7/15,300,120);
+rect(400,400,300,120);
 
 
 
