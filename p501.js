@@ -28,7 +28,7 @@ frameRate(30);
   background(255);
   createCanvas(wx,wy);
    pixelDensity(1);
-  pg = createGraphics(wx, wy+500);
+  pg = createGraphics(wx, wy);
   img= loadImage("kaso.png"); 
 
   //画面を固定する記述
