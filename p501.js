@@ -42,7 +42,7 @@ let cnv= createCanvas(windowWidth, windowHeight);
   extL=-1000;
   extR=1000;
  
- textSize(32);
+ textSize(10);
 
 
 let t = '←この枠にマウスカーソルを置く.※クリックで描画.';
@@ -92,7 +92,7 @@ text(t, width/2+55,width/2+10,100, 100);
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
   image(img, mx-60, my-60); 
- noFill();
+
 // rect( mx-60, my-60,100,100);
  
  //ellipse(mx-60,my-60,30,30);
