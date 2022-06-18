@@ -8,7 +8,7 @@ let wy;
 let realx=400;
 let realy=800;
 let extx=0;
-let exty=100;
+let exty=10000;
 
 //事前読み込みをpreload関数で行う
 function preload() {
@@ -26,7 +26,7 @@ function setup() {
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
-  pg = createGraphics(wx, wy,WEBGL);
+  pg = createGraphics(wx, wy);
   img= loadImage("kaso.png"); 
  pixelDensity(1);
   //画面を固定する記述
