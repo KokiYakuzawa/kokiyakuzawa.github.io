@@ -5,6 +5,15 @@ let img; //画像表示の変数
 let pg;
 let wx;
 let wy;
+let  realxL;
+ let realxR;
+ let extxL;
+ let extxR;
+  
+ let  realyL;
+ let realyR;
+ let extyL;
+ let extyR;
 
 //事前読み込みをpreload関数で行う
 function preload() {
@@ -29,16 +38,15 @@ frameRate(30);
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
- let  realxL=wx*7/15;
- let realxR=wx*8/15;
- let extxL=-5000;
- let extxR=5000;
+ realxL=wx*7/15;
+  realxR=wx*8/15;
+  extxL=-5000;
+  extxR=5000;
   
- let  realyL=wy*7/15;
- let realyR=wy*8/15;
- let extyL=-5000;
- let extyR=5000;
-  
+   realyL=wy*7/15;
+  realyR=wy*8/15;
+  extyL=-5000;
+  extyR=5000;
 
 }
 
@@ -69,7 +77,7 @@ function draw() {
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-
+rect(wx*7/15,wy*7/15,wx*8/15,wy*8/15);
 
  /* image(pg, 0, 0);*/
 //デカいマウスを動かす
