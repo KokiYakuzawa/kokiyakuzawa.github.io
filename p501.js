@@ -36,23 +36,26 @@ frameRate(30);
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
  realL=width/2-20;
   realR=width/2+20;
-  extL=0;
+  extL=-1000;
   extR=1000;
  
 
 }
 
 function draw() {
+ let x=mouseX;
+ let y=mouseY+150;
+ let px=pmouseX;
+ let py=pmouseY+150;
+
  
  
- 
- 
-  let mx = map(mouseX,realL,realR,extL,extR);
-  let my = map(mouseY,realL,realR,extL,extR);
-  let pmx = map(pmouseX,realL,realR,extL,extR);
-  let pmy = map(pmouseY,realL,realR,extL,extR);
+  let mx = map(x,realL,realR,extL,extR);
+  let my = map(y,realL,realR,extL,extR);
+  let pmx = map(px,realL,realR,extL,extR);
+  let pmy = map(py,realL,realR,extL,extR);
   
-  
+   translate(0,-150);
   
 
  //pg.translate(width*1/2-20, height*1/2);
