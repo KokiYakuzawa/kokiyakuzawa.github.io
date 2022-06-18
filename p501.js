@@ -34,8 +34,8 @@ frameRate(30);
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
- realL=wx*1/7;
-  realR=wx*2/7;
+ realL=0;
+  realR=400;
   extL=0;
   extR=10000;
  
@@ -70,7 +70,7 @@ translate(wx*1/2-20, wy*1/2);
   
   // rect(width/4, height/4, 200, 120);
   image(pg,0,0);
-rect(wx*1/7,wy*2/7,50,30);
+rect(0,0,50,30);
 
 
 
