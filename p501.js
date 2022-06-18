@@ -32,7 +32,7 @@ frameRate(30);
  let  realxL=wx*7/15;
  let realxR=wx*8/15;
  let extxL=-5000;
- let extyR=5000;
+ let extxR=5000;
   
  let  realyL=wy*7/15;
  let realyR=wy*8/15;
