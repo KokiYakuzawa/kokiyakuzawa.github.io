@@ -28,7 +28,7 @@ frameRate(30);
   background(255);
   createCanvas(wx,wy);
    pixelDensity(1);
-  pg = createGraphics(wx, wy);
+  pg = createGraphics(wx, wy+500);
   img= loadImage("kaso.png"); 
 
   //画面を固定する記述
@@ -44,9 +44,9 @@ frameRate(30);
 
 function draw() {
  let x=mouseX;
- let y=mouseY+150;
+ let y=mouseY+350;
  let px=pmouseX;
- let py=pmouseY+150;
+ let py=pmouseY+350;
 
  
  
