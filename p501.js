@@ -26,9 +26,10 @@ function setup() {
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
+   pixelDensity(1);
   pg = createGraphics(wx, wy);
   img= loadImage("kaso.png"); 
- pixelDensity(1);
+
   //画面を固定する記述
    // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
  // window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
