@@ -26,7 +26,7 @@ function setup() {
 frameRate(30);
   background(255);
   createCanvas(wx,wy);
-  pg = createGraphics(600, 600,WEBGL);
+  pg = createGraphics(wx, wy,WEBGL);
   img= loadImage("kaso.png"); 
  pixelDensity(1);
   //画面を固定する記述
