@@ -26,7 +26,10 @@ function setup() {
    wy= windowHeight;
 frameRate(30);
   background(255);
- createCanvas(windowWidth, windowHeight, WEBGL);
+let cnv= createCanvas(windowWidth, windowHeight);
+
+    cnv.position(0,0);//canvasをページの原点に固定
+    cnv.style('z-index','-1');
    pixelDensity(1);
   pg = createGraphics(wx, wy+350);
   img= loadImage("kaso.png"); 
