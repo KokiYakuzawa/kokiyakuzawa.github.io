@@ -1,6 +1,6 @@
 let angle, t;
 function setup() {
-  createCanvas(700, 400);
+  createCanvas(windowWidth, windowHeight);
   angle = 0;
   flg = false;
   background(20);
