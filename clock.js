@@ -6,6 +6,9 @@ function setup() {
   background(20);
   t = 0;
   frameRate(60);
+  
+    window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
+  window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
 }
 
 function draw() {
