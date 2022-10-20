@@ -1,14 +1,17 @@
 let angle, t;
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  let cnv= createCanvas(windowWidth, windowHeight);
+
+    cnv.position(0,0);//canvasをページの原点に固定
+    cnv.style('z-index','-1');
   angle = 0;
   flg = false;
   background(20);
   t = 0;
   frameRate(60);
   
-    window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
-  window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
+   // window.addEventListener("touchstart", function (event) { event.preventDefault(); }, { passive: false });
+  //window.addEventListener("touchmove", function (event) { event.preventDefault(); }, { passive: false });
 }
 
 function draw() {
