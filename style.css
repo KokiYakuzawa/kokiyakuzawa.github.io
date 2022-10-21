@@ -332,6 +332,17 @@ header h1 {
   line-height: 1.75;
   letter-spacing: 0.1em;
 }
+
+.outline {
+  font-weight: 500;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.outline ul{
+  display: flex;
+  justify-content: start;
+	
+}
 .outline h2 {
   margin-top: 1rem;
   font-family: a-otf-midashi-go-mb31-pr6n, sans-serif;
@@ -341,10 +352,10 @@ header h1 {
   line-height: 1.75;
   letter-spacing: 0.1em;
 }
-.outline {
-  font-weight: 500;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+.outline h1 {
+	 font-size: 0.8rem;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
 }
 .outline p {
   width: 360px;
@@ -369,6 +380,21 @@ header h1 {
   height: auto;
   max-width: 70%;
   max-height: 70%;
+}
+.column-figure img {
+　padding-top:200px;
+  width: auto;
+  height: auto;
+  max-width: 45%;
+  max-height: 45%;
+}
+
+	
+}
+.gd p {
+  font-size: 0.7rem;
+  line-height: 1.75;
+  letter-spacing: 0.1em;
 }
 footer {
   width: 100%;
