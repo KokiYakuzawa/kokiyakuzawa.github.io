@@ -385,8 +385,8 @@ header h1 {
 .p5-figure img {
 　margin-top:280px;
   padding-bottom:200px;
-  width: auto;
-  height: 200 px;
+  width: 200px;
+  height: 200px;
 /*   max-width: 100%;
   max-height:100%; */
 }
