@@ -385,12 +385,16 @@ header h1 {
 .p5-figure {
 	text-align: center;
 }
+.p5-figure li{
+  width: 100%;
+  heigth: auto;
+  margin-top:280px;
+
+  padding-bottom:200px;
+}
 .p5-figure img {
 
-　margin-top:280px;
-  padding-left:200px;
-  padding-right:200px;
-  padding-bottom:200px;
+
   width: auto;
   height: 26vw;
     max-width: 130%;
