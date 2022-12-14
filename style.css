@@ -382,14 +382,17 @@ header h1 {
   max-width: 70%;
   max-height: 70%;
 }
+.p5-gigure {
+	text-align:center;
+}
 .p5-figure img {
 
 　margin-top:280px;
   padding-bottom:200px;
   width: auto;
   height: 20vw;
-   max-width: 130%;
-  max-height:130%; 
+/*    max-width: 130%;
+  max-height:130%;  */
 }
 .column-figure img {
 　　margin-top:280px;
