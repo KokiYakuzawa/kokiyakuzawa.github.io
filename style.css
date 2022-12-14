@@ -383,14 +383,14 @@ header h1 {
   max-height: 70%;
 }
 .p5-figure {
-	text-align:center;
+	text-align: center;
 }
 .p5-figure img {
 
 　margin-top:280px;
   padding-bottom:200px;
   width: auto;
-  height: 26vw;
+  height: 2vw;
 /*    max-width: 130%;
   max-height:130%;  */
 }
